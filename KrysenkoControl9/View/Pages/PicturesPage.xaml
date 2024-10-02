@@ -8,20 +8,22 @@
       d:DesignHeight="480" d:DesignWidth="675"
       Title="Страница с картинками">
     <Grid>
-        <StackPanel Orientation="Vertical">
-            <Image Source="/Resources/1.jpg" />
-            <Image Source="/Resources/13.jpg" />
-            <Image Source="/Resources/11.jpg" />
-            <Image Source="/Resources/14.jpg" />
-            <Image Source="/Resources/15.jpg" />
-            <Image Source="/Resources/16.jpg" />
-            <Image Source="/Resources/2.jpg" />
-            <Image Source="/Resources/3.jpg" />
-            <Image Source="/Resources/4.jpg" />
-            <Image Source="/Resources/5.jpg" />
-            <Image Source="/Resources/6.jpg" />
-            <Image Source="/Resources/7.jpg" />
-            <Image Source="/Resources/8.jpg" />
-        </StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Hidden">
+            <StackPanel Orientation="Vertical">
+                <Image Source="/Resources/1.jpg" />
+                <Image Source="/Resources/13.jpg" />
+                <Image Source="/Resources/11.jpg" />
+                <Image Source="/Resources/14.jpg" />
+                <Image Source="/Resources/15.jpg" />
+                <Image Source="/Resources/16.jpg" />
+                <Image Source="/Resources/2.jpg" />
+                <Image Source="/Resources/3.jpg" />
+                <Image Source="/Resources/4.jpg" />
+                <Image Source="/Resources/5.jpg" />
+                <Image Source="/Resources/6.jpg" />
+                <Image Source="/Resources/7.jpg" />
+                <Image Source="/Resources/8.jpg" />
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

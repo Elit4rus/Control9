@@ -21,19 +21,19 @@
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <TextBlock FontSize="16">
+            <TextBlock FontSize="17">
                 <Hyperlink Name="GroupHl" Click="GroupHl_Click">
                     Добавить группу
                 </Hyperlink>
             </TextBlock>
 
-            <TextBlock Grid.Row="2" FontSize="16">
+            <TextBlock Grid.Row="2" FontSize="17">
                 <Hyperlink Name="CompetionHl" Click="CompetionHl_Click">
                     Добавить соревнование
                 </Hyperlink>
             </TextBlock>
 
-            <TextBlock Grid.Row="4" FontSize="16">
+            <TextBlock Grid.Row="4" FontSize="17">
                 <Hyperlink Name="AccountingHl" Click="AccountingHl_Click">
                     Учёт
                 </Hyperlink>
