@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8badac44dffe471fb7c9b2ed5f56e768" Name="Diagram1">
+        <EntityTypeShape EntityType="KrysenkoControl9Model.Accounting" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KrysenkoControl9Model.Direction" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KrysenkoControl9Model.Group" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KrysenkoControl9Model.Specialization" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KrysenkoControl9Model.TypeCompetion" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="KrysenkoControl9Model.FK_Accounting_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="KrysenkoControl9Model.FK_Accounting_TypeCompetion" ManuallyRouted="false" />
+        <AssociationConnector Association="KrysenkoControl9Model.FK_TypeCompetion_Direction" ManuallyRouted="false" />
+        <AssociationConnector Association="KrysenkoControl9Model.FK_Group_Specialization" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

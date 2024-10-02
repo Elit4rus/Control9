@@ -1,0 +1,27 @@
+﻿<Page x:Class="KrysenkoControl9.View.Pages.PicturesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KrysenkoControl9.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="480" d:DesignWidth="675"
+      Title="Страница с картинками">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Image Source="/Resources/1.jpg" />
+            <Image Source="/Resources/13.jpg" />
+            <Image Source="/Resources/11.jpg" />
+            <Image Source="/Resources/14.jpg" />
+            <Image Source="/Resources/15.jpg" />
+            <Image Source="/Resources/16.jpg" />
+            <Image Source="/Resources/2.jpg" />
+            <Image Source="/Resources/3.jpg" />
+            <Image Source="/Resources/4.jpg" />
+            <Image Source="/Resources/5.jpg" />
+            <Image Source="/Resources/6.jpg" />
+            <Image Source="/Resources/7.jpg" />
+            <Image Source="/Resources/8.jpg" />
+        </StackPanel>
+    </Grid>
+</Page>
