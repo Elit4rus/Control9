@@ -19,11 +19,11 @@
                 <RowDefinition Height="100"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="10"/>
-                <RowDefinition Height="40"/>
+                <RowDefinition Height="35"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="10"/>
-                <RowDefinition Height="40"/>
+                <RowDefinition Height="35"/>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="100"/>
@@ -34,7 +34,7 @@
             <TextBlock Grid.Row="5" Text="Выберите его вид" FontSize="16"/>
             <ComboBox Name="DirectionCmb" Grid.Row="7" FontSize="16"/>
 
-            <Button x:Name="AddBtn" Click="AddBtn_Click" Grid.Row="9" Content="Добавить" FontSize="16" Width="200"/>
+            <Button x:Name="AddBtn" Click="AddBtn_Click" Grid.Row="9" Content="Добавить" FontSize="16" Width="180"/>
         </Grid>
     </Grid>
 
