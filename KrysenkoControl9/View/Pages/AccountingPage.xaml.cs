@@ -76,7 +76,7 @@ namespace KrysenkoControl9.View.Pages
                 DateGame = (DateTime)CompetionDp.SelectedDate,
                 Group = GroupCmb.SelectedItem as Group,
                 TypeCompetion = CompetionCmb.SelectedItem as TypeCompetion,
-                Mark = Convert.ToInt32(MarkTb.Text)
+                Mark = Convert.ToDecimal(MarkTb.Text)
             };
 
             App.context.Accounting.Add(accounting);
